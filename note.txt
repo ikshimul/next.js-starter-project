@@ -1,0 +1,31 @@
+node_modules/: This is where the dependencies are installed by npm.
+
+public/: This folder contains static assets that are publicly accessible, such as images, fonts, and the favicon.ico file.
+
+app/: This is the main source code directory.
+    In app directory starter application two js file one layout and one page and one css file which gobaily used.
+
+.gitignore: This file lists files and directories that should be ignored by version control systems like Git. 
+          It's common to ignore the node_modules folder and build artifacts.
+
+jsconfig.json: Absolute paths for adding components from where without drilling backwards 
+             was my need and achieved it adding “jsconfig.json” file. No npm installation required.
+
+next.config.js: This file is a critical file for nextjs. You configure lots of stuff with the next.config.js file. 
+              Environment Variables,Base Path,Custom Headers etc.
+
+package.json: This file contains project metadata and lists the project's dependencies.
+
+package-lock.json: package-lock.json is automatically generated for any operations where npm modifies either 
+                the node_modules tree, or package.json. It describes the exact tree that was generated, such that subsequent 
+                installs are able to generate identical trees, regardless of intermediate dependency updates.
+
+README.md: This is where you can provide documentation or instructions for your project.
+
+src: When your project setup some question mark like Typescript, tailwind used or not here also one question src directory use or not,
+     If yes then app dirctory comes in src directory.
+
+postcss.config.js: If you used tailwind as a css framework when next install this file auto generated.
+
+tailwind.config.js: If you used tailwind as a css framework when next install this file auto generated.This file is 
+                  important for tailwind for customize tailwind theme and many mores.
